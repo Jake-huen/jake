@@ -15,5 +15,8 @@
     "url": "https://github.com/Jake-huen/jake/issues"
   },
   "homepage": "https://github.com/Jake-huen/jake#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
