@@ -1,0 +1,44 @@
+document : 현재 이 페이지
+getElementById : Id를 통해 element를 get하라 photo란 아이디를 가진 요소를 찾아라
+
+코드를 함수로 빼기
+<script>
+function clickSeoul(){}
+
+jQuery : javascript를 간단하게 쓸 수 있게 해줌.
+
+1.jQuery 사용할 수 있는 환경 만들기 : google에서 jQuery cdn 검색해서 가장 최신 버젼 복사
+
+--> script에 복사해주면 된다.
+이건 인터넷에 있는 원격 jQuery 코드를 내 프로젝트에 가져오게 된다.
+
+2. 직접 jQuery 코드를 다운받아서 쓰기
+이 코드를 다운로드 받아서 프로젝트 안의 어딘가에 두시고, 
+<script> 태그에 jquery.js 파일에 대한 경로를 써주시면 됩니다.
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script>
+  // 우리 자바스크립트 코드...
+</script>
+----------------------------------------------------------------------------
+$('#photo').attr('src','images/seoul.png')
+attr: attribute 즉 속성의 줄임말인데 attr 메소드는 앞에 거의 속성을 바꾸어주는 역할을 한다.
+src 속성을 뒤에 값으로 바꾸라는 의미이다.
+
+css바꾸어주기
+$('#seoul').css('font-weight','bold');
+-----------------------------------------------------------------------------
+-이벤트
+HTML 요소들에게 일어날 수 있는 일들
+ex>
+사용자가 요소를 클릭한다
+마우스가 요소 위로 올라온다
+마우스가 요소 밖으로 나간다
+페이지 로딩이 끝난다
+사용자가 키보드를 누른다
+-Event Handling
+
+할려면 먼저 이벤트 등록부터 해야된다...!
+ex.
+$('#email-input').on('input',ValidateEmail);
+

@@ -1,0 +1,63 @@
+	body{
+		margin-top:30px;
+		background-image:url("../image/main.JPG");
+		background-position:center center;
+		background-size:cover;
+		background-repeat: no-repeat;
+	}
+	.main{
+		font-family: 'Roboto', sans-serif;
+		border: 7px solid black;
+		margin:75px auto;
+		font-size:64px;
+		text-align:center;
+		width: 650px;
+		padding: 20px;
+		margin-top:80px;
+		color:white;
+		background-color:lightpink;
+	}
+	h2{
+		text-align:center;
+	}
+	h3{
+		margin-top:30px;
+	}
+	img{
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	a{
+		text-decoration: none;
+	}
+	.main_menu{
+		text-align:center;
+		margin-top:60px;
+		margin-bottom:80px;
+	}
+	.main_menu a{
+		font-size:30px;
+		display:inline-block;
+		margin-left:auto;
+		margin-right:auto;
+		color:white;
+		text-decoration:none;
+		font-family: Helvetica,Arial,sans-serif;
+		padding:20px;
+	}
+	.main_pic{
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.instagram{
+		text-align: center;
+	}
+	@font-face {
+		src: url("../fonts/BMJUA_ttf.ttf");
+		font-family: "Jua";
+	}
+	p{
+		font-family: "Jua";
+	}
