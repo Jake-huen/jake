@@ -1,0 +1,19 @@
+boolean의 활용
+
+undefined와 null
+
+null은 비어있는 값이고, undefined는 변수에 아무것도 할당되지 않았을 때의 값이다.
+자바스크립트에서는 변수의 선언과 초기화를 동시에 하지 않아도 되기 때문에, 선언만 된 변수는 undefined라는 값을 갖게 된다.
+
+NaN(Not a Number)
+: 숫자가 아닌 것을 숫자로 표현하려 할 때 반환됨.
+
+false와 true로 간주되는 것들
+0은 false
+양수는 true
+음수는 true
+비어있는 문자열은 false
+안 비어있는 문자열은 true
+null은 false
+undefined는 false
+NaN은 false

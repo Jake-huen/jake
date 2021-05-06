@@ -1,0 +1,6 @@
+Audio 다루기
+
+-소리 재생하고 정지하기
+var audioFile = new Audio("file location or url"); //생성
+audioFile.play(); //재생
+audioFile.pause(); //정지
